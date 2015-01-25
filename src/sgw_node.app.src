@@ -1,0 +1,12 @@
+{application, sgw_node,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sgw_node, []}},
+  {env, []}
+ ]}.
